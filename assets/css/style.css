@@ -1,0 +1,87 @@
+.jumbotron {
+    background-color: #bd4f4f;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+span {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+#card-1 {
+    background-color: #bd4f4f;
+    padding-bottom: .3em;
+}
+
+#card-2 {
+    background-color: #bd4f4f;
+    padding: 2em;
+}
+
+h1 {
+    font-family: 'Bitter', serif;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+    float: left;
+    padding-bottom: .1em;
+}
+
+h4 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    padding-bottom: .2em;
+}
+
+td,  {
+    font-weight: 600;
+}
+
+th {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.card {
+    margin-bottom: 1em;
+}
+
+.btn, .btn-default, .btn-dark {
+   background-color: #bd4f4f;
+   float: right;
+}
+
+#add-train {
+    margin-bottom: 2em;
+}
+
+
+@media screen and (max-width: 770px) {
+    .jumbotron {
+       background-size: auto;
+    }
+}
