@@ -3,12 +3,12 @@ $(document).ready(function () {
 
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyB5ucmUcOJQIyHGG6Bs_816UPbCfOpGl0U",
-    authDomain: "trains-c6f73.firebaseapp.com",
-    databaseURL: "https://trains-c6f73.firebaseio.com",
-    projectId: "trains-c6f73",
-    storageBucket: "trains-c6f73.appspot.com",
-    messagingSenderId: "765225117282"
+    apiKey: "AIzaSyBkj8wI0_sg9vYapDgxBaxoBMViG2qKkEw",
+    authDomain: "codingbootcamp1234.firebaseapp.com",
+    databaseURL: "https://codingbootcamp1234.firebaseio.com",
+    projectId: "codingbootcamp1234",
+    storageBucket: "codingbootcamp1234.appspot.com",
+    messagingSenderId: "515110600061"
   };
 
   firebase.initializeApp(config);
